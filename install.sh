@@ -20,6 +20,8 @@ curl https://raw.githubusercontent.com/HXHGTS/Subconverter-Server/main/subconver
 
 echo 正在启动Subconverter并写入开机引导. . .
 
+systemctl daemon-reload
+
 systemctl enable subconverter
 
 systemctl start subconverter
