@@ -302,7 +302,7 @@ target = "/render?path=templates/test.tpl"
 
 [server]
 listen = "0.0.0.0"
-port = 2052
+port = 80
 serve_file_root = "web"
 
 [advanced]
