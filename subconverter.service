@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/root/subconverter/subconverter
-WorkingDirectory=/root/subconverter
+ExecStart=/opt/subconverter/subconverter
+WorkingDirectory=/opt/subconverter
 Restart=always
 RestartSec=10
 
